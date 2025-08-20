@@ -36,25 +36,25 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated bootcamp",
-    location: "Miami, FL",
+    location: "Wuhan, China",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 6 months of studying in a codeCamp. I immediately found a job as a back-end developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Back-End Developer",
+    location: "zhoushan, zhejiang, China",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a back-end developer for one years and half. I am working onto the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "International Student",
+    location: "Sydney, NSW, Australia",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now an internation student working onto a full-stack developer. My stack includes React, Java, TypeScript, Tailwind, PostgreSQL and Redis. I'm open to internship/part-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
@@ -62,10 +62,10 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Intertion",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I worked as a back-stack developer on this company for 1.5 years. Users can give public feedback to companies.",
+    tags: ["VUE", "Java", "PostgreSQL", "Spring boot", "Redis"],
     imageUrl: corpcommentImg,
   },
   {
@@ -90,18 +90,12 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
-  "Node.js",
+  "Redis",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
+  "MySQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Java",
+  "Spring Boot",
 ] as const;
